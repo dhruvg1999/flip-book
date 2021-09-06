@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flip Book</title>
+    <link rel="stylesheet" href="flipbook.css" />
+  </head>
+  <body>
+    <div class="book">
+      <input type="checkbox" id="c1">
+      <input type="checkbox" id="c2">
+      <input type="checkbox" id="c3">
+      <div class="flip-book">
+        <div class="flip" id="p1">
+          <div class="back">
+            <img src="https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_1280.jpg">
+            <label class="back-btn" for="c1">Back</label>
+          </div>
+          <div class="front">
+            <div style="margin-left: 25px;font-size: 1.2rem;"><h1>Watch the Universe</h1></div>
+            <label class="next-btn" for="c1">Next</label>
+          </div>
+        </div>
+        <div class="flip" id="p2">
+            <div class="back">
+                <img src="https://cdn.pixabay.com/photo/2011/12/13/14/30/earth-11014_1280.jpg">
+                <label class="back-btn" for="c2">Back</label>
+              </div>
+              <div class="front">
+                <div style="margin-left: 25px;font-size: 1.2rem;"><p>Picture of Night Sky</p></div>
+                <label class="next-btn" for="c2">Next</label>
+              </div>
+        </div>
+
+        <div class="flip" id="p3">
+          <div class="back">
+            <img src="https://cdn.pixabay.com/photo/2016/07/02/12/21/eclipse-1492818_1280.jpg">
+            <label class="back-btn" for="c3">Back</label>
+          </div>
+          <div class="front">
+            <div style="margin-left: 25px;font-size: 1.2rem;"><p>Picture of Earth from Moon</p></div>
+            <label class="next-btn" for="c3">Next</label>
+          </div>
+      </div>
+      <div>
+        <div class="front">
+            <div style="margin-left: 25px;font-size: 1.2rem;"><p>Picture of Solar Eclipse</p></div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
